@@ -12,6 +12,8 @@
 		03AF863C1C5C4BEE003A38D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF863A1C5C4BEE003A38D6 /* Main.storyboard */; };
 		03AF863E1C5C4BEE003A38D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF863D1C5C4BEE003A38D6 /* Assets.xcassets */; };
 		03AF86411C5C4BEE003A38D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF863F1C5C4BEE003A38D6 /* LaunchScreen.storyboard */; };
+		03AF86491C5C4D24003A38D6 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF86481C5C4D24003A38D6 /* YellowVC.swift */; };
+		03AF864B1C5C4E57003A38D6 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF864A1C5C4E57003A38D6 /* BlueVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		03AF863D1C5C4BEE003A38D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03AF86401C5C4BEE003A38D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03AF86421C5C4BEE003A38D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AF86481C5C4D24003A38D6 /* YellowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		03AF864A1C5C4E57003A38D6 /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				03AF86361C5C4BEE003A38D6 /* AppDelegate.swift */,
 				03AF86381C5C4BEE003A38D6 /* ViewController.swift */,
+				03AF86481C5C4D24003A38D6 /* YellowVC.swift */,
+				03AF864A1C5C4E57003A38D6 /* BlueVC.swift */,
 				03AF863A1C5C4BEE003A38D6 /* Main.storyboard */,
 				03AF863D1C5C4BEE003A38D6 /* Assets.xcassets */,
 				03AF863F1C5C4BEE003A38D6 /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					03AF86321C5C4BEE003A38D6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A4Q8Q92CT;
 					};
 				};
 			};
@@ -135,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AF864B1C5C4E57003A38D6 /* BlueVC.swift in Sources */,
 				03AF86391C5C4BEE003A38D6 /* ViewController.swift in Sources */,
 				03AF86371C5C4BEE003A38D6 /* AppDelegate.swift in Sources */,
+				03AF86491C5C4D24003A38D6 /* YellowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foxgallerystudios.NavController;
@@ -260,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NavController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foxgallerystudios.NavController;
